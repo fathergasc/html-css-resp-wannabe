@@ -146,8 +146,18 @@ img {
 
  @media screen and (max-width: 480px) {
 
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .row {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
 
-
-    
+    .lessons .col, .steps .col, .why-us .col {
+        width: 100%;
+    }
 }
