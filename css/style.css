@@ -162,8 +162,14 @@ img {
 
     }
     
-    body {
+    .why-us {
         background-color: black;
+        margin-bottom: 0;
+        padding-top: 3rem;
+    }
+
+    .steps {
+        margin: 0;
     }
 }
 
